@@ -1,35 +1,41 @@
 <html>
 
 <head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
-  <link rel="shortcut icon" href="/images/eba.jpg">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+    <link rel="shortcut icon" href="/images/eba.jpg">
 </head>
 
 <body>
-  <div id="app">
+<nav>
+</nav>
+<div id="app">
     <div id="app">别急...</div>
-  </div>
-  <script>
+</div>
+<script>
     // docsify serve       
     window.$docsify = {
-      name: '黄建亚',
-      // repo: '123',
-      loadSidebar: true,
-      subMaxLevel: 2,
-      search: 'auto',
-      // placeholder: {
-      //   '/zh-cn/': '搜索',
-      //   '/': 'Type to search'
-      // },
-      coverpage: true
-
+        loadNavbar: '_navbar.md',
+        name: '陈仁霖',
+        // repo: '123',
+        loadSidebar: true,
+        subMaxLevel: 2,
+        search: 'auto',
+        // placeholder: {
+        //   '/zh-cn/': '搜索',
+        //   '/': 'Type to search'
+        // },
+        coverpage: true,
     }
-  </script>
+</script>
 <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+<!--复制到剪贴板-->
+<script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+<script src="//unpkg.com/docsify-count/dist/countable.js"></script>
 </body>
 
 </html>
