@@ -1,8 +1,6 @@
 
-* [首页](/)
+* [首页](./README.md)
 
-- Kafka
-   - [Kafka第一天](./md/Kafka学习笔记.md)
    
 
 

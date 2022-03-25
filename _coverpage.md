@@ -4,9 +4,7 @@
 
 > 菜狗进阶笔记
 
-<!-- - 简单、轻便 (压缩后 ~21kB)
-- 无需生成 html 文件
-- 众多主题 -->
+- 嗷呜嗷呜
 
-<!-- [GitHub](https://github.com/docsifyjs/docsify/) -->
-<!-- [Get Started](#docsify) -->
+[Gitee](https://gitee.com/Intercrl)
+[Get Started](./README.md)

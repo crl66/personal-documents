@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
-    <link rel="shortcut icon" href="/images/eba.jpg">
+    <link rel="shortcut icon" href="/images/97436b4dbeefbaf94cf517a1177a8f2.jpg">
 </head>
 
 <body>
@@ -17,19 +17,26 @@
 <script>
     // docsify serve       
     window.$docsify = {
+        topMargin: 90, // default: 0
+        themeColor: '#3F51B5',
+        mergeNavbar: true,
+        logo: '/images/时钟.png',
         repo: 'https://gitee.com/Intercrl/personal-documents',
         maxLevel: 4,
         loadNavbar: '_navbar.md',
-        name: '陈仁霖',
+        name: '<span>成人0</span>',
         // repo: '123',
         loadSidebar: '_sidebar.md',
+        autoHeader: true,
         subMaxLevel: 2,
         search: 'auto',
+        auto2top: true,
         // placeholder: {
         //   '/zh-cn/': '搜索',
         //   '/': 'Type to search'
         // },
         coverpage: true,
+        formatUpdated: '{MM}/{DD} {HH}:{mm}',
     }
 </script>
 <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
